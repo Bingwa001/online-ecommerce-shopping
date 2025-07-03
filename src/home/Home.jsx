@@ -1,10 +1,16 @@
 import React from 'react';
+import Banner from './Banner'
+import HomeCategory from  "./HomeCategory"
+import CategoryShowCase from './CategoryShowCase';
+import Register from './Register';
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to Home Page</h1>
-      <p>This is your home page content.</p>
+      <Banner/>
+      <HomeCategory/>
+      <CategoryShowCase/>
+      <Register/>
     </div>
   );
 };
